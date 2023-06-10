@@ -7,4 +7,5 @@ services:
     environment:
       - TZ=${TIMEZONE}
       - WATCHTOWER_CLEANUP=true
+      # - WATCHTOWER_RUN_ONCE=true
     restart: always
